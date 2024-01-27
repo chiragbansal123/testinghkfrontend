@@ -1,0 +1,64 @@
+.header {
+  position: fixed;
+  background-color: black;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center; /* top to bottom movement */
+  justify-content: center; /* left to right movement */
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+}
+
+.header a {
+  color: white;
+}
+
+.header div {
+  position: absolute;
+  /* display: flex; */
+
+  margin-left: 85%;
+}
+
+#headerUserIcon {
+  /* position: absolute; */
+  /* margin-right: 5%; */
+}
+
+#headerUserIcon img {
+  height: 30px;
+}
+
+#headerUserIcon:hover {
+  cursor: pointer;
+}
+
+.header #cartIcon {
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 50%;
+  background-image: linear-gradient(
+    320deg,
+    rgb(128, 128, 128),
+    rgb(255, 255, 255)
+  );
+}
+
+.header #cartIcon img {
+  /* background-color: white; */
+  /* position: absolute; */
+
+  margin-top: 6px;
+  margin-left: 4px;
+  height: 20px;
+}
+
+.header #cartIcon:hover {
+  cursor: pointer;
+}

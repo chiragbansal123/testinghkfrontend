@@ -1,0 +1,37 @@
+.Search-Bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+
+  /* background-color: lightgrey; */
+}
+
+.Search-Bar input {
+  height: 20px;
+  /* position: fixed; */
+  /* overflow: scroll; */
+  /* justify-content: center; */
+}
+
+.Search-Bar span {
+  /* position: fixed; */
+  margin-left: -77px;
+  background-color: rgb(0, 0, 0);
+  padding: 12px;
+  color: #dddddd;
+  font-size: 13px;
+}
+.Search-Bar input:hover {
+  background-color: rgb(252, 252, 252);
+  border: 1px solid black;
+}
+
+.Search-Bar input:focus {
+  background-color: rgb(252, 252, 252);
+}
+
+.Search-Bar span:hover {
+  cursor: pointer;
+}

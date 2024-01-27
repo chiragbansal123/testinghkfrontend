@@ -1,0 +1,42 @@
+.footer {
+  position: fixed;
+  width: 100vw;
+  height: 60px;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center; /* top to bottom movement */
+  justify-content: center; /* left to right movement */
+  background-color: rgb(211, 211, 211);
+  background-image: linear-gradient(180deg, rgb(173, 173, 173), white);
+}
+
+.footer span {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.footer-left-span {
+  margin-right: 50vw;
+}
+
+.footer-mid-span {
+  position: fixed;
+  /* display: flex; */
+  /* align-items: center; top to bottom movement */
+  /* justify-content: center; left to right movement */
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}

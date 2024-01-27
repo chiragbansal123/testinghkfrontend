@@ -1,0 +1,43 @@
+.Tnc {
+  /* position: absolute; */
+  position: fixed;
+  height: 88%;
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(138, 138, 138, 0.26);
+}
+
+.Tnc .content-box {
+  position: absolute;
+  height: 400px;
+  width: 300px;
+  margin-top: -30px;
+  display: flex;
+  justify-content: start;
+  background-color: white;
+  text-align: center;
+}
+
+.Tnc .content-box p {
+  height: 300px;
+  width: 270px;
+  margin-top: 15px;
+  /* background-color: wheat; */
+  border: 1px solid rgb(235, 235, 235);
+  overflow-y: scroll;
+}
+
+.Tnc .submit-button {
+  position: relative;
+  /* justify-content: end; */
+  /* width: 240px; */
+  margin-left: 0px;
+  margin-top: px;
+}
+
+.Tnc .submit-button:hover {
+  border: 2px solid rgb(0, 0, 0);
+}
